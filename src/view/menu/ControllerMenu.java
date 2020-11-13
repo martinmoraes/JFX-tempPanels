@@ -28,7 +28,7 @@ import javafx.stage.Stage;
 public class ControllerMenu extends Application implements Initializable {
 
 	@FXML
-	public static BorderPane borderpane;
+	private BorderPane borderpane;
 
 	@FXML
 	private Button btnMenus;
@@ -91,5 +91,4 @@ public class ControllerMenu extends Application implements Initializable {
 			e.printStackTrace();
 		}
 	}
-
 }
