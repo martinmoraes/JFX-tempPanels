@@ -58,8 +58,14 @@ public class ControllerVisitante {
 
     @FXML
     private Label Fechar;
+    
+    private ControllerMenu controllerMenu;
 
-    @FXML
+    public ControllerVisitante(ControllerMenu controllerMenu) {
+		this.controllerMenu = controllerMenu;
+	}
+
+	@FXML
     void Excluir(ActionEvent event) {
 //    	ControllerMenu.borderpane.setCenter(arg0);
     }
